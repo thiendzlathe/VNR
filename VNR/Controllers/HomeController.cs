@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using VNR.Models;
+using Newtonsoft.Json.Linq;
 
 namespace VNR.Controllers
 {
@@ -15,6 +16,7 @@ namespace VNR.Controllers
 
         public IActionResult Index()
         {
+           var a = 
             return View();
         }
 

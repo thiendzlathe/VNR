@@ -66,7 +66,7 @@ namespace VNR.Controllers
         }
 
         // GET: KhoaHocs/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int? id) 
         {
             if (id == null || _context.KhoaHocs == null)
             {
